@@ -1,0 +1,50 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Legacy backups
+backup_*/
+app_backup_*.py
+app_before_*.py
+app_*_working_*.py
+
+# Legacy patch scripts
+patch_*.py
+add_language_support.py
+add_results_search.py
+complete_i18n.py
+gui_integration_patch_fixed.py
+redesign_results.py
+
+# Temporary development notes
+design_code.txt
+runner_code.txt
+pages_to_translate.txt
+
+# Research data
+data/
+projects/
+results/
+runs/
+*.pdb
+*.fasta
+*.fa
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
+desktop.ini
+Thumbs.db
